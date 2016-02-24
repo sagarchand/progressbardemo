@@ -1,0 +1,6 @@
+js_min/script.js
+
+*.map
+
+css_min/
+node_modules/

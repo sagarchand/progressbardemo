@@ -1,0 +1,41 @@
+.container {
+	width: 350px;
+	margin: 0 auto;
+}
+
+.progressbar {
+	display: block;
+	width: 100%;
+	border: 1px solid #848484;
+	margin: 20px 0;
+	overflow-x: hidden;
+
+	i {
+		float: left;
+		width: 100%;
+		text-align: center;
+		line-height: 40px;
+	}
+
+	span {
+		display: block;
+		height: 40px;
+		background: #7AC5DE;
+		width: 0;
+
+		&.overflown {
+			background: red;
+		}
+	}
+}
+
+.options li{
+	display: inline-block;
+
+	button {
+		padding: 3px;
+		border: 1px solid #848484;
+		background: #e4e4e4;
+		cursor: pointer;
+	}
+}

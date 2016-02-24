@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Progress bar demo</title>
+	<link rel="stylesheet" type="text/css" href="css_min/style.css">
+	<script type="text/javascript" src="js_min/lib/jquery-2.2.1.min.js"></script>
+	<script type="text/javascript" src="js/plugins/progressbar.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Progress Bars Demo</h1>
+		<div id="progress1" class="progressbar">
+			<i>25%</i>
+			<span style="width:25%"></span>
+		</div>
+		<div id="progress2" class="progressbar">
+			<i>50%</i>
+			<span style="width:50%"></span>
+		</div>
+		<div id="progress3" class="progressbar">
+			<i>75%</i>
+			<span style="width:75%"></span>
+		</div>
+		<ul class="options">
+			<li>
+				<select id="barSelector">
+					<option value="progress1">#Progress1</option>
+					<option value="progress2">#Progress2</option>
+					<option value="progress3">#Progress3</option>
+				</select>
+			</li>
+			<li><button data-val="25" class="decrease">-25</button></li>
+			<li><button data-val="10" class="decrease">-10</button></li>
+			<li><button data-val="10" class="increase">+10</button></li>
+			<li><button data-val="25" class="increase">+25</button></li>
+		</ul>
+	</div>
+</body>
+</html>
